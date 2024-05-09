@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoothie Bowl</title>
+
+    <link rel="stylesheet" href="./styles/global.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Logo da aplicação">
+
+        <nav>
+            <a href="#">All Recipes</a>
+            <a href="#">Vegan</a>
+            <a href="#">Gluten</a>
+            <a href="#">Shop</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Sip Your Way to Bliss Taste</h1>
+
+        <p>
+            We're dedicted to bringing you deliciously fresh smoothies,
+            made with love, care, and the finest ingredients.
+        </p>
+
+        <div>
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('banana')">
+                <img src="./assets/bowl/banana.png" alt="Smoothie de banana">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('morango')">
+                <img src="./assets/bowl/morango.png" alt="Smoothie de morango">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('kiwi')">
+                <img src="./assets/bowl/kiwi.png" alt="Smoothie de kiwi">
+            </button>
+
+            <button class="button_smoothie" type="button" onclick="changeSmoothie('mertilho')">
+                <img src="./assets/bowl/mertilho.png" alt="Smoothie de mertilho">
+            </button>
+        </div>
+    </main>
+
+    <div id="bowls">
+        <img src="./assets/bowls.png" alt="">
+    </div>
+
+    <span id="circle"></span>
+    <script src="./index.js"></script>
+</body>
+</html>
